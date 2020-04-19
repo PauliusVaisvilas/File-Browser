@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-bottom: 1px solid blue;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-spacing: 15px;
+    
+}
+
+.loginas {
+    font-family: monospace;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 33%;
+    border: groove lightyellow 2px;
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 32.5%;
+    font-size: small;
+    font-weight: bolder;
+}
+.signup {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.email {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5px;
+    margin-top: 25px;
+    color: grey;
+    width: 86%;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    color: white;
+    justify-content: flex-start;
+
+    
+}
+.button {
+    color: white;
+    border: none;
+    
+}
+.login2 {
+    margin-left: 5px;
+    padding-left: 5px;
+    border-left: solid 2px black;
+}
+.apacia1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(37, 92, 212, 0.1);
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-left: 612px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    width: 33%;
+}
+
+    
+
+.bottom{
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(15, 14, 14);
+    color: blanchedalmond;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    
+
+    }
+
+.botdiv{
+    width: 20%;
+    word-wrap: normal;  
+}
+
+.alertmsg {
+    color: red;
+}
+
+.exit-btn-3:before {
+    position: absolute;
+    left: 0;
+    width: 40%;
+    font-size: 160%;
+    line-height: 0.8;
+    color: #fff;
+    content: "\e163";
+    font-family: 'Glyphicons Halflings';
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+table tr:hover{
+    background-color: rgb(40, 156, 177);
+}
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(12, 53, 87);
+    color: white;
+}
+.red {
+    font-weight: 300;    
+    color: rgb(15, 14, 14);
+    background-color: red;
+}
+.yellow {
+    font-variant: small-caps;
+    font-size: x-small;
+    
+    color:black;
+    background-color: yellow;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 6px 16px;
+    font-size: 16px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.white {
+    background-color: rgb(249, 249, 249);
+}
+  
